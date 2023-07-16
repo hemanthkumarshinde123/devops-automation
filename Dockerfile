@@ -1,6 +1,5 @@
 FROM tomcat:latest
-EXPOSE 8081
-ADD target/hemanth-devops-integration.jar hemanth-devops-integration.jar
-ENTRYPOINT ["java","-jar","/hemanth-devops-integration.jar"]
-
+ADD ./target/hemanth-devops-integration.jar /usr/local/tomcat/webapps
+CMD ["catalina.sh","run"]
+EXPOSE 8080
 
