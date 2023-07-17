@@ -57,7 +57,7 @@
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>shinde-devops-integration</finalName>
+		<finalName>stlshinde-devops-integration</finalName>
 	</build>
 
 </project>
